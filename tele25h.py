@@ -193,7 +193,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # === KHỞI TẠO ===
 def main():
-    app = Application.builder().token(BOT_TOKEN).build()
+    app = Application.builder().token(7687184140_AAHA2OTsXjlKdIPuGJh2Ou1BD_9hlYPsGJU).build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("taokey", taokey))
