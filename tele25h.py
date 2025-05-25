@@ -20,7 +20,7 @@ def dummy_server():
         httpd.serve_forever()
 
 # === CẤU HÌNH ===
-BOT_TOKEN = os.environ.get("7687184140:AAHA2OTsXjlKdIPuGJh2Ou1BD_9hlYPsGJU")
+BOT_TOKEN = os.environ.get("7687184140_AAHA2OTsXjlKdIPuGJh2Ou1BD_9hlYPsGJU")
 KEYS_FILE = "keys.json"
 user_keys = {}
 
